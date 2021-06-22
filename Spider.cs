@@ -26,6 +26,7 @@ namespace SpiderLib{
                 if(doc != null)
                     FindAllLinks(doc, "//a");
                 else Console.WriteLine("DOC EMPTY!!");
+                RemoveCopy();
             }
         }
 
@@ -53,5 +54,14 @@ namespace SpiderLib{
                 }
             else Console.WriteLine("PAGE EMPTY!!!");
         }
+
+        private void RemoveCopy(){
+            var set = new HashSet<string>(Links);
+            Links.Clear();
+            foreach(var item in set){
+                Links.Enqueue(item);
+            }
+        }
+
     }
 }

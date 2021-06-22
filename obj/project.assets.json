@@ -74,11 +74,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kika/GitHub/Spider/SpiderLib/SpiderLib.csproj",
+      "projectUniqueName": "/home/kika/GitHub/Spider/Spider/SpiderLib.csproj",
       "projectName": "SpiderLib",
-      "projectPath": "/home/kika/GitHub/Spider/SpiderLib/SpiderLib.csproj",
+      "projectPath": "/home/kika/GitHub/Spider/Spider/SpiderLib.csproj",
       "packagesPath": "/home/kika/.nuget/packages/",
-      "outputPath": "/home/kika/GitHub/Spider/SpiderLib/obj/",
+      "outputPath": "/home/kika/GitHub/Spider/Spider/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kika/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7VUy+JQqfyeLUtyHoefai+obA4wOjlsUR8vabUDjMIBpUH0WAeJNOcvy1725eulf3hyJs8J/srGyzekYn4OXYw==",
+  "dgSpecHash": "h4B0K52YZxIA6HlrWvbxOJkAsX3jF1zeyRxOVsN8r+AQtfa/Y08g1G2qcd8rtTOFp7lIYrJfc/ZAQXSQ5OlvIw==",
   "success": true,
-  "projectFilePath": "/home/kika/GitHub/Spider/SpiderLib/SpiderLib.csproj",
+  "projectFilePath": "/home/kika/GitHub/Spider/Spider/SpiderLib.csproj",
   "expectedPackageFiles": [
     "/home/kika/.nuget/packages/htmlagilitypack/1.11.34/htmlagilitypack.1.11.34.nupkg.sha512"
   ],
