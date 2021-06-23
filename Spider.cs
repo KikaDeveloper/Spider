@@ -21,13 +21,17 @@ namespace SpiderLib{
 
         public void Start(){
             while(Links.Count != 0){
-                Console.WriteLine($"SIZE: {Links.Count}");
-                var doc = Load(Links.Dequeue());
-                if(doc != null)
-                    FindAllLinks(doc, "//a");
-                else Console.WriteLine("DOC EMPTY!!");
-                RemoveCopy();
+               Step();
             }
+        }
+
+        public void Step(){
+            Console.WriteLine($"SIZE: {Links.Count}");
+            var doc = Load(Links.Dequeue());
+            if(doc != null)
+                FindAllLinks(doc, "//a");
+            else Console.WriteLine("DOC EMPTY!!");
+            RemoveCopy();
         }
 
         private HtmlDocument Load(string url){
