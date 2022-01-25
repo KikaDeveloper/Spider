@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wj3DIVsvRtIZMWeGyw4NjDLhXrjqqg3+YXzArrE1ivXfs/Qz/HvppMi18KitiwjBK0hEZ8kZNWcyvzOEUgVHgA==",
+  "success": true,
+  "projectFilePath": "/home/Kika/GitHub/Spider/Spider/SpiderLib.csproj",
+  "expectedPackageFiles": [
+    "/home/Kika/.nuget/packages/htmlagilitypack/1.11.34/htmlagilitypack.1.11.34.nupkg.sha512"
+  ],
+  "logs": []
+}
