@@ -1,4 +1,6 @@
 ﻿using System;
+using SpiderLib;
+
 
 namespace SpiderTest
 {
@@ -6,7 +8,13 @@ namespace SpiderTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var url = "https://habr.com/ru/post/578588/";
+            var xpath = "//a";
+            
+            Console.WriteLine("Spider started...");
+            
+            Spider spider = new Spider(url, xpath);
+            spider.Start();
         }
     }
 }

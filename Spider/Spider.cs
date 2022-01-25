@@ -5,15 +5,15 @@ using System.Collections.Generic;
 namespace SpiderLib{
 
     public class Spider{
-        HtmlDocument Document{get; set;}
-        HtmlWeb Loader {get; set;}
-        string Url{get; set;}
-        Queue<string> Links {get; set;}
+        private HtmlDocument Document{get; set;}
+        private HtmlWeb Loader {get; set;}
+        private string Url{get; set;}
+        private Queue<string> Links {get; set;}
 
-        public Spider(string url, string xpath){
-            Url = url;
+        public Spider(string startPoint, string xpath){
+            Url = startPoint;
             Loader = new HtmlWeb();
-            Document = Load(url);
+            Document = Load(startPoint);
 
             Links = new Queue<string>();
             FindAllLinks(Document ,xpath);
